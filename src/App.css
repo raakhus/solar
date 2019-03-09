@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #9f24af;
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.jumbotron {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-image: url("./assets/solar-panel.jpg");
+  color: black;
+  text-shadow:
+  -1px -1px 0 rgb(255, 255, 255),
+  1px -1px 0 rgb(255, 255, 255),
+  -1px 1px 0 rgb(255, 255, 255),
+  1px 1px 0 rgb(255, 255, 255);
+  };
+input {
+    text-align:center;
+    color: #FFFFFF;
+ }
+ ::placeholder {
+  color: #ffffff!important;
+  opacity: 1;
+}
+
+
+ input[type=text]:focus{
+  background-color: #004720;
+  color: #FFFFFF;
+}
+
+input[type="text"], textarea {
+  background-color : #475e88;
+  text-align:center;
+  color: #FFFFFF;
+}
+
+ ::-webkit-input-placeholder {
+  text-align: center;
+
+}
+
+#bold{
+  font-weight: bold;
+  font-size: 20px;
+}
+body{
+  background-color: #303030;
+  color: #FFFFFF;
+}
+
+
+#barGraph {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 100%;
+  height: 400px;
+  background-color:#303030;
+  color: #FFFFFF
+}
+
