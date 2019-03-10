@@ -96,3 +96,15 @@ body{
   color: #FFFFFF
 }
 
+#chartcolor{
+  color: #8884d8;
+}
+#chartcolor2{
+  color: #82ca9d;
+}
+#tooltipBackround{
+  background: rgb(95, 95, 95)
+}
+#chartcolorLabel{
+  color: #242424
+}
